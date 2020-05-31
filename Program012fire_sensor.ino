@@ -18,7 +18,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   fire_state = digitalRead(fire);
 
-  if (fire_state == 1) {
+  if (fire_state == HIGH) {
     digitalWrite(redled, HIGH);
     digitalWrite(greenled, LOW);
     
